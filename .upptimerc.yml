@@ -19,10 +19,8 @@ sites:
       - 401
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: status.vibequiz.org
-  baseUrl: /uptime
+  # Custom domain for status page
+  cname: status.vibequiz.org
   logoUrl: https://vibequiz.org/favicon.svg
   name: VibeQuiz Status
   introTitle: "**VibeQuiz** uptime monitor and status page"
